@@ -1,0 +1,36 @@
+/*  
+    Saim Alam
+    8754240 
+*/
+
+.cards h2 {
+  margin: 0 0 2% 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+
+  border-bottom: 3px solid var(--transparent-darkerwhite);
+}
+.cards table {
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+}
+.cards table th {
+  background-color: white;
+  color: var(--theme-color);
+  padding: 1% 0;
+  border: 1px solid #ddd;
+}
+.cards table td {
+  min-width: 125px;
+  padding: 1% 0;
+  border: 1px solid #ddd;
+  color: white;
+}
+.cards table tr:nth-child(even) {
+  background-color: #555454;
+}
+.cards table tr:nth-child(odd) {
+  background-color: #212121;
+}

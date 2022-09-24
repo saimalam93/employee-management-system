@@ -1,0 +1,200 @@
+/*  
+    Saim Alam
+    8754240 
+*/
+
+.cards form {
+  background-color: white;
+  color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 95%;
+  padding: 2% 1%;
+
+  font-size: 14px;
+  border-radius: 5px;
+
+  box-shadow: 5px 10px 10px 5px var(--transparent-black);
+  overflow-x: auto;
+}
+.formHead {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 30px 0 30px 0;
+  width: 100%;
+  display: block;
+}
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 10px 0;
+}
+.form-group label {
+  background-color: #d4e4fb6e;
+  width: 20%;
+  padding: 0.5%;
+  margin: 0.5%;
+  font-weight: bold;
+  text-align: right;
+  opacity: 0.9;
+  border-radius: 50px 5px 30px 5px;
+}
+
+.form-group input,
+.form-group select {
+  background-color: #d4e4fb;
+  color: black;
+
+  width: 30%;
+  padding: 0.5% 0;
+
+  border: none;
+}
+.cards form td input,
+.cards form td select {
+  background-color: #d4e4fb;
+  color: black;
+
+  text-align: center;
+  width: 95%;
+  padding: 5% 0;
+
+  border: none;
+}
+.form-group input[type="submit"] {
+  background-color: #03a066;
+  color: white;
+
+  width: 30%;
+  margin-top: 2%;
+  padding: 2% 0 2% 0;
+
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  border: none;
+  border-radius: 2px;
+}
+
+input[type="submit"]:hover {
+  background-color: #03a066b7;
+}
+
+.cards form input::placeholder {
+  color: black;
+  padding: 0 0 0 1%;
+}
+
+button {
+  width: 40%;
+  margin: 0 3%;
+  padding: 5% 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.btnEdit {
+  background-color: #03a066;
+  color: white;
+  font-weight: bold;
+}
+.btnEdit:hover {
+  background-color: #03a066b7;
+}
+.btnDelete {
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+}
+.btnDelete:hover {
+  background-color: #ff0000b7;
+}
+.btnSave {
+  background-color: #03a066;
+  color: white;
+  font-weight: bold;
+}
+.btnSave:hover {
+  background-color: #03a066b7;
+}
+.btnCancel {
+  background-color: var(--theme-color);
+  color: white;
+  font-weight: bold;
+}
+.btnCancel:hover {
+  background-color: #ff0000b7;
+}
+.btnView {
+  background-color: #03a066;
+  color: white;
+  display: block;
+
+  width: 40%;
+  margin: 0 auto;
+  padding: 5% 0;
+  font-size: 13.33px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 1px solid #03a066;
+  border-radius: 5px;
+
+  text-decoration: none;
+}
+.btnView:hover {
+  background-color: white;
+  color: black;
+}
+
+.addEmployee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addEmployee input {
+  color: #0f2027;
+  width: 50%;
+  padding: 0.5%;
+  margin: 0.5% 0;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 2px solid #0f2027;
+}
+.addEmployee select {
+  width: 51%;
+  padding: 0.5%;
+  margin: 0.5% 0;
+  border: 2px solid #0f2027;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #0f2027;
+}
+.toast-error {
+  background-color: #0f2027;
+  color: white;
+  font-weight: bold;
+}
+.toast-body-error {
+  color: white;
+  height: 100px;
+}
+.Toastify__close-button--light {
+  color: #fff;
+  opacity: 0.4;
+}
+.toast-error-delete {
+  background-color: #0f2027;
+  color: white;
+  top: calc(0.5 * 100vh - 64px) !important;
+  font-weight: bold;
+}

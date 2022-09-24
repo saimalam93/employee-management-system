@@ -1,0 +1,50 @@
+/*  
+    Saim Alam
+    8754240 
+*/
+
+:root {
+  --theme-color: #1b72e9;
+  --transparent-theme: #1b71e967;
+
+  --transparent-black: #0000007a;
+  --transparent-white: #ffffff2f;
+
+  --transparent-darkerwhite: #f5f5f5d0;
+  --transparent-darkerblack: #000000de;
+}
+body {
+  background-color: white;
+  color: black;
+
+  font-family: Verdana, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.cards {
+  background-color: var(--transparent-darkerblack);
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  width: 80%;
+  margin: 5% auto;
+  padding: 1%;
+
+  font-size: 14px;
+  border-radius: 5px;
+
+  box-shadow: 5px 10px 10px 5px var(--transparent-black);
+}
+
+footer {
+  background-color: var(--theme-color);
+  color: white;
+
+  text-align: center;
+  padding: 40px;
+  margin-top: 80px;
+}

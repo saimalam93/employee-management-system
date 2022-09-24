@@ -1,0 +1,60 @@
+/*  
+    Saim Alam
+    8754240 
+*/
+
+.filter-options {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  font-size: 12px;
+  overflow-x: auto;
+  margin: 1% 0 2% 0;
+  padding: 1% 0;
+}
+.filter-options h4 {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--transparent-darkerwhite);
+}
+.filter-options form {
+  background-color: transparent;
+  color: white;
+  align-items: center;
+  box-shadow: none;
+  flex-direction: row;
+}
+.filter-options form select {
+  width: 33%;
+  padding: 0.5%;
+  margin: 2.5% 0;
+  border: 2px solid #0f2027;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #0f2027;
+}
+.filter-options form input[type="submit"] {
+  background-color: #03a066;
+  color: white;
+  width: 15%;
+  padding: 1%;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+}
+
+.filter-options form input[type="submit"]:hover {
+  background-color: #03a066b7;
+}

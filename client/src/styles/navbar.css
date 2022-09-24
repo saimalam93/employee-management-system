@@ -1,0 +1,113 @@
+/*  
+    Saim Alam
+    8754240 
+*/
+
+header {
+  background-color: #1b72e9;
+  background-image: url(../Images/woman-at-desktop-bg.png);
+  background-size: 350px 250px;
+  background-repeat: no-repeat;
+  color: white;
+
+  padding: 10% 0% 2% 0%;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo {
+  color: rgb(255, 255, 255);
+
+  display: block;
+
+  margin: 0 0 1% 0;
+  width: 100%;
+
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+.logo:hover {
+  text-decoration: underline;
+}
+.logo h1 {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 3% 0;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #102229;
+  padding: 2%;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px 2px var(--transparent-white);
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid #00c0ff;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  box-shadow: 2px 2px 0px -2px var(--transparent-white);
+  letter-spacing: 1.5px;
+  border: 2px solid #00c0ff;
+}
+
+.searchBar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px 1px var(--transparent-black);
+}
+.searchBar input[type="image"] {
+  background-color: white;
+  color: white;
+  width: 50px;
+  height: 46px;
+  margin: 0;
+  padding: 0.5% 0;
+  border-radius: 20px;
+}
+
+.searchBar form {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50px;
+}
+.searchBar form input[type="text"] {
+  background-color: white;
+
+  width: 90%;
+  margin: 0;
+  padding: 1.5%;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+}
+.searchBar form input::placeholder {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}

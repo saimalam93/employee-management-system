@@ -1,0 +1,34 @@
+/*  
+    Saim Alam
+    8754240 
+*/
+
+.userProfile {
+  display: flex;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.cards img {
+  width: 50%;
+}
+
+.btnProfileView {
+  background-color: var(--theme-color);
+  color: white;
+  width: 50%;
+  font-weight: bold;
+  border: 5px solid var(--theme-color);
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 5px 5px 10px 5px var(--transparent-black);
+}
+
+.btnProfileView:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 2px 2px var(--transparent-black);
+}
