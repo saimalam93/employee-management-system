@@ -1,9 +1,5 @@
 Saim Alam Assignment 2 PROG8730-22S-Sec4-Advanced Full-Stack Programming. 
 
-Please note:
-    Assumption 1 : Node.js is installed on the machine.
-    Assumption 2 : npm package is installed on the machine.
-
 Steps to execute the project:
 
     1. Extract the .zip folder.
@@ -24,7 +20,7 @@ Steps to execute the project:
 
     6. Repeat steps 4 and 5 for the client folder.
 
-    7. Website should open up automatically on the localhost:3000.
+    7. Website should open up automatically on the localhost.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \\ End of File
