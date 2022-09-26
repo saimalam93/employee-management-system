@@ -8,7 +8,7 @@ import getSingleEmployeeData from "./getSingleEmployeeData.js";
 class EmployeeDirectory extends React.Component {
   constructor() {
     super();
-    this.url = "http://localhost:4000/graphql";
+    this.url = "https://ems-saimalam.herokuapp.com/graphql";
     this.state = { employees: [] };
     this.updateEmployee = this.updateEmployee.bind(this);
   } // end of constructor

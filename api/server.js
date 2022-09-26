@@ -8,7 +8,7 @@ const dateScalar = require("./graphql_type.js");
 
 const employees = require("./employees.js");
 
-require("./models/db.js");
+require("./db.js");
 require("dotenv").config();
 
 const port = process.env.PORT || 4000;
@@ -34,8 +34,10 @@ server.start().then(() => {
   server.applyMiddleware({ app, path: "/graphql", cors: enableCors });
 });
 
-app.use(express.static("ui/public"));
-
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
+});
+
+app.get("/", (req, res) => {
+  res.json("server started");
 });

@@ -7,7 +7,7 @@ import "../styles/form.css";
 import setEmployeeData from "./setEmployeeData.js";
 
 function EmployeeCreate() {
-  const url = "http://localhost:4000/graphql";
+  const url = "https://ems-saimalam.herokuapp.com/graphql";
   const navigate = useNavigate();
 
   async function createEmployee(employee) {
