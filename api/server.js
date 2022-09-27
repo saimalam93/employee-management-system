@@ -10,9 +10,9 @@ const employees = require("./employees.js");
 
 require("./db.js");
 require("dotenv").config();
-
+const resolvers = require("./resolvers");
 const port = process.env.PORT || 4000;
-const enableCors = (process.env.EnableCors || `true`) == `true`;
+const enableCors = (process.env.ENABLE_CORS || `false`) == `true`;
 
 const resolvers = {
   Date: dateScalar,
