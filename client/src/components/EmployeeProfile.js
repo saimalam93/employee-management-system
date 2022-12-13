@@ -7,7 +7,7 @@ import getSingleEmployeeData from "./getSingleEmployeeData.js";
 
 function EmployeeProfile() {
   const { id } = useParams();
-  const url = "https://ems-saimalam.herokuapp.com/graphql";
+  const url = "https://ems-saimalam.onrender.com/graphql";
 
   const [employee, setEmployee] = useState({});
 

@@ -10,7 +10,7 @@ import updateEmployeeData from "./updateEmployeeData.js";
 class EmployeeTable extends React.Component {
   constructor() {
     super();
-    this.url = "https://ems-saimalam.herokuapp.com/graphql";
+    this.url = "https://ems-saimalam.onrender.com/graphql";
     this.state = { editIndex: null };
     this.handleEditClick = this.handleEditClick.bind(this);
   } // end of constructor
